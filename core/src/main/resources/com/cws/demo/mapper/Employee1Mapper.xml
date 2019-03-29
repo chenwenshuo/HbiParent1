@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cws.demo.mapper.Employee1Mapper">
+    <resultMap id="BaseResultMap" type="com.cws.demo.dto.Employee1">
+        <result column="EMPLOYEE_ID" property="employeeId" jdbcType="DECIMAL" />
+        <result column="EMPLOYEE_CODE" property="employeeCode" jdbcType="VARCHAR" />
+        <result column="NAME" property="name" jdbcType="VARCHAR" />
+        <result column="BORN_DATE" property="bornDate" jdbcType="DATE" />
+        <result column="EMAIL" property="email" jdbcType="VARCHAR" />
+        <result column="MOBIL" property="mobil" jdbcType="VARCHAR" />
+        <result column="JOIN_DATE" property="joinDate" jdbcType="DATE" />
+        <result column="GENDER" property="gender" jdbcType="VARCHAR" />
+        <result column="CERTIFICATE_ID" property="certificateId" jdbcType="VARCHAR" />
+        <result column="STATUS" property="status" jdbcType="VARCHAR" />
+        <result column="ENABLED_FLAG" property="enabledFlag" jdbcType="VARCHAR" />
+        <result column="CERTIFICATE_TYPE" property="certificateType" jdbcType="VARCHAR" />
+        <result column="EFFECTIVE_START_DATE" property="effectiveStartDate" jdbcType="DATE" />
+        <result column="EFFECTIVE_END_DATE" property="effectiveEndDate" jdbcType="DATE" />
+    </resultMap>
+
+
+</mapper>
